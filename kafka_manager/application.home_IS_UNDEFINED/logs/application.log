@@ -1,0 +1,316 @@
+2024-03-31 22:27:08,006 - [WARN] - from org.apache.curator.retry.ExponentialBackoffRetry in kafka-manager-system-akka.actor.default-dispatcher-4 
+maxRetries too large (100). Pinning to 29
+
+2024-03-31 22:27:08,387 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Starting curator...
+
+2024-03-31 22:27:08,399 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+
+2024-03-31 22:27:08,399 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:host.name=nx
+
+2024-03-31 22:27:08,399 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:java.version=1.8.0_362
+
+2024-03-31 22:27:08,399 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:java.vendor=Private Build
+
+2024-03-31 22:27:08,399 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:java.home=/usr/lib/jvm/java-8-openjdk-arm64/jre
+
+2024-03-31 22:27:08,399 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:java.class.path=/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/../conf/:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/kafka-manager.kafka-manager-1.3.3.7-sans-externalized.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.scala-lang.scala-library-2.11.8.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.play.twirl-api_2.11-1.1.1.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.apache.commons.commons-lang3-3.4.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.play.play-server_2.11-2.4.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.play.play_2.11-2.4.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.play.build-link-2.4.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.play.play-exceptions-2.4.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.javassist.javassist-3.19.0-GA.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.play.play-iteratees_2.11-2.4.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.scala-stm.scala-stm_2.11-0.7.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.config-1.3.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.play.play-json_2.11-2.4.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.play.play-functional_2.11-2.4.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.play.play-datacommons_2.11-2.4.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/joda-time.joda-time-2.8.1.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.joda.joda-convert-1.7.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.fasterxml.jackson.datatype.jackson-datatype-jdk8-2.5.4.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.fasterxml.jackson.datatype.jackson-datatype-jsr310-2.5.4.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.play.play-netty-utils-2.4.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.slf4j.jul-to-slf4j-1.7.12.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.slf4j.jcl-over-slf4j-1.7.12.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/ch.qos.logback.logback-core-1.1.3.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/ch.qos.logback.logback-classic-1.1.3.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.akka.akka-actor_2.11-2.3.14.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.akka.akka-slf4j_2.11-2.3.14.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/commons-codec.commons-codec-1.10.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/xerces.xercesImpl-2.11.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/xml-apis.xml-apis-1.4.01.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/javax.transaction.jta-1.1.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.google.inject.guice-4.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/javax.inject.javax.inject-1.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/aopalliance.aopalliance-1.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.google.guava.guava-16.0.1.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.google.inject.extensions.guice-assistedinject-4.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.play.play-netty-server_2.11-2.4.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/io.netty.netty-3.10.4.Final.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.typesafe.netty.netty-http-pipelining-1.1.4.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.google.code.findbugs.jsr305-2.0.1.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.webjars.webjars-play_2.11-2.4.0-2.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.webjars.requirejs-2.1.20.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.webjars.webjars-locator-0.28.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.webjars.webjars-locator-core-0.27.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.apache.commons.commons-compress-1.9.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.webjars.npm.validate.js-0.8.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.webjars.bootstrap-3.3.5.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.webjars.jquery-2.1.4.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.webjars.backbonejs-1.2.3.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.webjars.underscorejs-1.8.3.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.webjars.dustjs-linkedin-2.6.1-1.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.webjars.json-20121008-1.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.apache.curator.curator-framework-2.10.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.apache.curator.curator-client-2.10.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.apache.zookeeper.zookeeper-3.4.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/jline.jline-0.9.94.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.apache.curator.curator-recipes-2.10.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.json4s.json4s-jackson_2.11-3.4.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.json4s.json4s-core_2.11-3.4.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.json4s.json4s-ast_2.11-3.4.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.json4s.json4s-scalap_2.11-3.4.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.thoughtworks.paranamer.paranamer-2.8.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.scala-lang.modules.scala-xml_2.11-1.0.5.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.fasterxml.jackson.core.jackson-databind-2.6.7.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.fasterxml.jackson.core.jackson-annotations-2.6.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.fasterxml.jackson.core.jackson-core-2.6.7.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.json4s.json4s-scalaz_2.11-3.4.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.scalaz.scalaz-core_2.11-7.2.4.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.slf4j.log4j-over-slf4j-1.7.12.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.adrianhurt.play-bootstrap3_2.11-0.4.5-P24.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.clapper.grizzled-slf4j_2.11-1.0.2.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.apache.kafka.kafka_2.11-0.10.0.1.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.101tec.zkclient-0.8.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.yammer.metrics.metrics-core-2.2.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.scala-lang.modules.scala-parser-combinators_2.11-1.0.4.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/net.sf.jopt-simple.jopt-simple-4.9.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.apache.kafka.kafka-clients-0.10.0.1.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/net.jpountz.lz4.lz4-1.3.0.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.xerial.snappy.snappy-java-1.1.2.6.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.slf4j.slf4j-api-1.7.21.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.beachape.enumeratum_2.11-1.4.4.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/com.beachape.enumeratum-macros_2.11-1.4.4.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/org.scala-lang.scala-reflect-2.11.8.jar:/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7/lib/kafka-manager.kafka-manager-1.3.3.7-assets.jar
+
+2024-03-31 22:27:08,399 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:java.library.path=/usr/java/packages/lib/aarch64:/usr/lib/aarch64-linux-gnu/jni:/lib/aarch64-linux-gnu:/usr/lib/aarch64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+
+2024-03-31 22:27:08,400 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:java.io.tmpdir=/tmp
+
+2024-03-31 22:27:08,400 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:java.compiler=<NA>
+
+2024-03-31 22:27:08,400 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:os.name=Linux
+
+2024-03-31 22:27:08,400 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:os.arch=aarch64
+
+2024-03-31 22:27:08,400 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:os.version=4.9.201-tegra
+
+2024-03-31 22:27:08,400 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:user.name=root
+
+2024-03-31 22:27:08,400 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:user.home=/root
+
+2024-03-31 22:27:08,400 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Client environment:user.dir=/home/nvidia/lzj/iot/kafka_manager/kafka-manager-1.3.3.7
+
+2024-03-31 22:27:08,403 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-4 
+Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@3868f20e
+
+2024-03-31 22:27:08,503 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-4-SendThread(localhost:2181) 
+Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+
+2024-03-31 22:27:08,540 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+zk=localhost:2181
+
+2024-03-31 22:27:08,541 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+baseZkPath=/kafka-manager
+
+2024-03-31 22:27:08,549 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-4-SendThread(localhost:2181) 
+Socket connection established to localhost/127.0.0.1:2181, initiating session
+
+2024-03-31 22:27:08,573 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-4-SendThread(localhost:2181) 
+Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000000b6be0002, negotiated timeout = 40000
+
+2024-03-31 22:27:08,883 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Started actor akka://kafka-manager-system/user/kafka-manager
+
+2024-03-31 22:27:08,884 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Starting delete clusters path cache...
+
+2024-03-31 22:27:08,893 - [INFO] - from kafka.manager.actor.DeleteClusterActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Started actor akka://kafka-manager-system/user/kafka-manager/delete-cluster
+
+2024-03-31 22:27:08,896 - [INFO] - from kafka.manager.actor.DeleteClusterActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Starting delete clusters path cache...
+
+2024-03-31 22:27:08,948 - [INFO] - from kafka.manager.actor.DeleteClusterActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Adding kafka manager path cache listener...
+
+2024-03-31 22:27:08,968 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Starting kafka manager path cache...
+
+2024-03-31 22:27:08,969 - [INFO] - from kafka.manager.actor.DeleteClusterActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Scheduling updater for 10 seconds
+
+2024-03-31 22:27:09,023 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Adding kafka manager path cache listener...
+
+2024-03-31 22:27:10,058 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2024-03-31 22:27:10,420 - [INFO] - from play.api.Play in main 
+Application started (Prod)
+
+2024-03-31 22:27:10,625 - [INFO] - from play.core.server.NettyServer in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2024-03-31 22:27:11,306 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Adding new cluster manager for cluster : kafka_cluster_1
+
+2024-03-31 22:27:11,319 - [WARN] - from org.apache.curator.retry.ExponentialBackoffRetry in kafka-manager-system-akka.actor.default-dispatcher-3 
+maxRetries too large (100). Pinning to 29
+
+2024-03-31 22:27:11,325 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@4ee10307
+
+2024-03-31 22:27:11,325 - [INFO] - from kafka.manager.actor.cluster.ClusterManagerActor in kafka-manager-system-akka.actor.default-dispatcher-4 
+Starting curator...
+
+2024-03-31 22:27:11,334 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-3-SendThread(localhost:2181) 
+Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+
+2024-03-31 22:27:11,336 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-3-SendThread(localhost:2181) 
+Socket connection established to localhost/127.0.0.1:2181, initiating session
+
+2024-03-31 22:27:11,344 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-3-SendThread(localhost:2181) 
+Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000000b6be0003, negotiated timeout = 40000
+
+2024-03-31 22:27:11,344 - [WARN] - from org.apache.curator.retry.ExponentialBackoffRetry in kafka-manager-system-akka.actor.default-dispatcher-3 
+maxRetries too large (100). Pinning to 29
+
+2024-03-31 22:27:11,348 - [INFO] - from org.apache.zookeeper.ZooKeeper in kafka-manager-system-akka.actor.default-dispatcher-3 
+Initiating client connection, connectString=localhost:2181 sessionTimeout=60000 watcher=org.apache.curator.ConnectionState@50cbafc8
+
+2024-03-31 22:27:11,347 - [INFO] - from kafka.manager.actor.cluster.ClusterManagerActor in kafka-manager-system-akka.actor.default-dispatcher-4 
+Starting shared curator...
+
+2024-03-31 22:27:11,354 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-3-SendThread(localhost:2181) 
+Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+
+2024-03-31 22:27:11,355 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-3-SendThread(localhost:2181) 
+Socket connection established to localhost/127.0.0.1:2181, initiating session
+
+2024-03-31 22:27:11,366 - [INFO] - from org.apache.zookeeper.ClientCnxn in kafka-manager-system-akka.actor.default-dispatcher-3-SendThread(localhost:2181) 
+Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x1000000b6be0004, negotiated timeout = 40000
+
+2024-03-31 22:27:11,451 - [INFO] - from kafka.manager.actor.cluster.KafkaCommandActor in kafka-manager-system-akka.actor.default-dispatcher-4 
+Started actor akka://kafka-manager-system/user/kafka-manager/kafka_cluster_1/kafka-command
+
+2024-03-31 22:27:11,454 - [INFO] - from kafka.manager.actor.cluster.BrokerViewCacheActor in kafka-manager-system-akka.actor.default-dispatcher-4 
+Started actor akka://kafka-manager-system/user/kafka-manager/kafka_cluster_1/broker-view
+
+2024-03-31 22:27:11,455 - [INFO] - from kafka.manager.actor.cluster.BrokerViewCacheActor in kafka-manager-system-akka.actor.default-dispatcher-4 
+Scheduling updater for 30 seconds
+
+2024-03-31 22:27:11,456 - [INFO] - from kafka.manager.actor.cluster.ClusterManagerActor in kafka-manager-system-akka.actor.default-dispatcher-4 
+Started actor akka://kafka-manager-system/user/kafka-manager/kafka_cluster_1
+
+2024-03-31 22:27:11,457 - [INFO] - from kafka.manager.actor.cluster.ClusterManagerActor in kafka-manager-system-akka.actor.default-dispatcher-4 
+Starting cluster manager topics path cache...
+
+2024-03-31 22:27:11,458 - [INFO] - from kafka.manager.actor.cluster.BrokerViewCacheActor in kafka-manager-system-akka.actor.default-dispatcher-4 
+Updating broker view...
+
+2024-03-31 22:27:11,497 - [INFO] - from kafka.manager.actor.cluster.KafkaAdminClientActor in kafka-manager-system-akka.actor.default-dispatcher-10 
+KafkaAdminClientActorConfig(ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(kafka_cluster_1,CuratorConfig(localhost:2181,100,100,1000),true,0.9.0.1,true,None,None,false,true,false,false,false,false,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(6),Some(1000),Some(6),Some(1000),Some(6),Some(1000))))),LongRunningPoolConfig(6,1000),akka://kafka-manager-system/user/kafka-manager/kafka_cluster_1/kafka-state)
+
+2024-03-31 22:27:11,509 - [INFO] - from kafka.manager.actor.cluster.KafkaStateActor in kafka-manager-system-akka.actor.default-dispatcher-10 
+KafkaStateActorConfig(org.apache.curator.framework.imps.CuratorFrameworkImpl@6e111071,pinned-dispatcher,ClusterContext(ClusterFeatures(Set(KMJMXMetricsFeature, KMDeleteTopicFeature, KMPollConsumersFeature)),ClusterConfig(kafka_cluster_1,CuratorConfig(localhost:2181,100,100,1000),true,0.9.0.1,true,None,None,false,true,false,false,false,false,Some(ClusterTuning(Some(30),Some(2),Some(100),Some(2),Some(100),Some(2),Some(100),Some(30),Some(5),Some(6),Some(1000),Some(6),Some(1000),Some(6),Some(1000))))),LongRunningPoolConfig(6,1000),LongRunningPoolConfig(6,1000),5,10000,None)
+
+2024-03-31 22:27:11,513 - [INFO] - from kafka.manager.actor.cluster.KafkaStateActor in kafka-manager-system-akka.actor.default-dispatcher-10 
+Started actor akka://kafka-manager-system/user/kafka-manager/kafka_cluster_1/kafka-state
+
+2024-03-31 22:27:11,533 - [INFO] - from kafka.manager.actor.cluster.KafkaStateActor in kafka-manager-system-akka.actor.default-dispatcher-10 
+Starting topics tree cache...
+
+2024-03-31 22:27:11,539 - [INFO] - from kafka.manager.actor.cluster.KafkaStateActor in kafka-manager-system-akka.actor.default-dispatcher-10 
+Starting topics config path cache...
+
+2024-03-31 22:27:11,995 - [INFO] - from kafka.manager.actor.cluster.KafkaStateActor in kafka-manager-system-akka.actor.default-dispatcher-6 
+Starting brokers path cache...
+
+2024-03-31 22:27:12,019 - [INFO] - from kafka.manager.actor.cluster.KafkaStateActor in kafka-manager-system-akka.actor.default-dispatcher-6 
+Starting admin path cache...
+
+2024-03-31 22:27:12,035 - [INFO] - from kafka.manager.actor.cluster.KafkaStateActor in kafka-manager-system-akka.actor.default-dispatcher-6 
+Starting delete topics path cache...
+
+2024-03-31 22:27:12,052 - [INFO] - from kafka.manager.actor.cluster.KafkaStateActor in kafka-manager-system-akka.actor.default-dispatcher-6 
+Adding topics tree cache listener...
+
+2024-03-31 22:27:12,052 - [INFO] - from kafka.manager.actor.cluster.KafkaStateActor in kafka-manager-system-akka.actor.default-dispatcher-6 
+Adding admin path cache listener...
+
+2024-03-31 22:27:12,053 - [INFO] - from kafka.manager.actor.cluster.KafkaStateActor in kafka-manager-system-akka.actor.default-dispatcher-6 
+Starting offset cache...
+
+2024-03-31 22:27:12,070 - [INFO] - from kafka.manager.actor.cluster.OffsetCachePassive in kafka-manager-system-pinned-dispatcher-8 
+Starting kafka managed offset cache ...
+
+2024-03-31 22:27:12,322 - [INFO] - from kafka.manager.actor.cluster.OffsetCachePassive in kafka-manager-system-pinned-dispatcher-8 
+Starting consumers path children cache...
+
+2024-03-31 22:27:12,327 - [INFO] - from kafka.manager.actor.cluster.KafkaManagedOffsetCache in KafkaManagedOffsetCache 
+Constructing new kafka consumer client using these properties: 
+
+2024-03-31 22:27:12,332 - [INFO] - from kafka.manager.actor.cluster.OffsetCachePassive in kafka-manager-system-pinned-dispatcher-8 
+Adding consumers path children cache listener...
+
+2024-03-31 22:27:12,335 - [INFO] - from kafka.manager.actor.cluster.KafkaManagedOffsetCache in KafkaManagedOffsetCache 
+key.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2024-03-31 22:27:12,335 - [INFO] - from kafka.manager.actor.cluster.KafkaManagedOffsetCache in KafkaManagedOffsetCache 
+auto.offset.reset=latest
+
+2024-03-31 22:27:12,335 - [INFO] - from kafka.manager.actor.cluster.KafkaManagedOffsetCache in KafkaManagedOffsetCache 
+bootstrap.servers=localhost:9092
+
+2024-03-31 22:27:12,335 - [INFO] - from kafka.manager.actor.cluster.KafkaManagedOffsetCache in KafkaManagedOffsetCache 
+enable.auto.commit=false
+
+2024-03-31 22:27:12,335 - [INFO] - from kafka.manager.actor.cluster.KafkaManagedOffsetCache in KafkaManagedOffsetCache 
+group.id=KMOffsetCache-nx
+
+2024-03-31 22:27:12,335 - [INFO] - from kafka.manager.actor.cluster.KafkaManagedOffsetCache in KafkaManagedOffsetCache 
+value.deserializer=org.apache.kafka.common.serialization.ByteArrayDeserializer
+
+2024-03-31 22:27:12,335 - [INFO] - from kafka.manager.actor.cluster.KafkaManagedOffsetCache in KafkaManagedOffsetCache 
+exclude.internal.topics=false
+
+2024-03-31 22:27:12,525 - [INFO] - from kafka.manager.actor.cluster.KafkaManagedOffsetCache in KafkaManagedOffsetCache 
+Consumer created for kafka offset topic consumption for cluster kafka_cluster_1
+
+2024-03-31 22:27:20,056 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-6 
+Updating internal state...
+
+2024-03-31 22:27:30,050 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2024-03-31 22:27:40,041 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-5 
+Updating internal state...
+
+2024-03-31 22:27:41,451 - [INFO] - from kafka.manager.actor.cluster.BrokerViewCacheActor in kafka-manager-system-akka.actor.default-dispatcher-2 
+Updating broker view...
+
+2024-03-31 22:27:50,052 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-3 
+Updating internal state...
+
+2024-03-31 22:28:00,051 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-12 
+Updating internal state...
+
+2024-03-31 22:28:10,050 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-12 
+Updating internal state...
+
+2024-03-31 22:28:11,451 - [INFO] - from kafka.manager.actor.cluster.BrokerViewCacheActor in kafka-manager-system-akka.actor.default-dispatcher-12 
+Updating broker view...
+
+2024-03-31 22:28:20,051 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-12 
+Updating internal state...
+
+2024-03-31 22:28:30,050 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-12 
+Updating internal state...
+
+2024-03-31 22:28:40,052 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-15 
+Updating internal state...
+
+2024-03-31 22:28:41,460 - [INFO] - from kafka.manager.actor.cluster.BrokerViewCacheActor in kafka-manager-system-akka.actor.default-dispatcher-16 
+Updating broker view...
+
+2024-03-31 22:28:43,304 - [INFO] - from kafka.manager.actor.cluster.KafkaCommandActor in kafka-manager-system-akka.actor.default-dispatcher-15 
+Deleting topic : well
+
+2024-03-31 22:28:43,716 - [WARN] - from kafka.manager.actor.cluster.KafkaManagedOffsetCache in KafkaManagedOffsetCache 
+Failed to process a message from offset topic on cluster kafka_cluster_1!
+java.lang.NullPointerException: null
+	at java.nio.ByteBuffer.wrap(ByteBuffer.java:396) ~[na:1.8.0_362]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$3.apply(KafkaStateActor.scala:293) [kafka-manager.kafka-manager-1.3.3.7-sans-externalized.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache$$anonfun$run$3.apply(KafkaStateActor.scala:243) [kafka-manager.kafka-manager-1.3.3.7-sans-externalized.jar:na]
+	at scala.util.Success.foreach(Try.scala:236) [org.scala-lang.scala-library-2.11.8.jar:na]
+	at kafka.manager.actor.cluster.KafkaManagedOffsetCache.run(KafkaStateActor.scala:243) [kafka-manager.kafka-manager-1.3.3.7-sans-externalized.jar:na]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_362]
+
+2024-03-31 22:28:50,050 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-4 
+Updating internal state...
+
+2024-03-31 22:29:00,051 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-4 
+Updating internal state...
+
+2024-03-31 22:29:05,366 - [INFO] - from kafka.manager.utils.AdminUtils in pool-15-thread-1 
+Topic creation {"version":1,"partitions":{"2":[0],"1":[0],"0":[0]}}
+
+2024-03-31 22:29:10,051 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-18 
+Updating internal state...
+
+2024-03-31 22:29:11,459 - [INFO] - from kafka.manager.actor.cluster.BrokerViewCacheActor in kafka-manager-system-akka.actor.default-dispatcher-19 
+Updating broker view...
+
+2024-03-31 22:29:20,051 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-19 
+Updating internal state...
+
+2024-03-31 22:29:30,105 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-19 
+Updating internal state...
+
+2024-03-31 22:29:40,089 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-15 
+Updating internal state...
+
+2024-03-31 22:29:41,471 - [INFO] - from kafka.manager.actor.cluster.BrokerViewCacheActor in kafka-manager-system-akka.actor.default-dispatcher-4 
+Updating broker view...
+
+2024-03-31 22:29:50,056 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-15 
+Updating internal state...
+
+2024-03-31 22:30:00,051 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-15 
+Updating internal state...
+
+2024-03-31 22:30:10,051 - [INFO] - from kafka.manager.actor.KafkaManagerActor in kafka-manager-system-akka.actor.default-dispatcher-15 
+Updating internal state...
+
+2024-03-31 22:30:11,455 - [INFO] - from kafka.manager.actor.cluster.BrokerViewCacheActor in kafka-manager-system-akka.actor.default-dispatcher-22 
+Updating broker view...
+

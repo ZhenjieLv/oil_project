@@ -1,0 +1,21 @@
+{
+  "name": "well_connector",
+  "config": {
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "table.name.format": "WellRecord",
+    "errors.retry.timeout": "600000",
+    "errors.log.include.messages": "true",
+    "topics": "well",
+    "errors.retry.delay.max.ms": "30000",
+    "errors.deadletterqueue.context.headers.enable": "true",
+    "errors.deadletterqueue.topic.name": "my-connector-errors",
+    "errors.tolerance": "all",
+    "errors.deadletterqueue.topic.replication.factor": "1",
+    "auto.create": "false",
+    "connection.url": "jdbc:mysql://localhost:3306/oil_edge?user=nvidia&password=nvidia",
+    "insert.mode": "insert",
+    "errors.log.enable": "true",
+    "pk.mode": "none",
+    "pk.fields": "none"
+  }
+}

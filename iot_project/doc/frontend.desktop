@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=IOT
+Exec=/home/nvidia/lzj/iot/iot_project/build/bin/start_frontend.sh
+Icon=/home/nvidia/lzj/iot/iot_project/build/bin/icon.png
+Terminal=false
+Type=Application
+
